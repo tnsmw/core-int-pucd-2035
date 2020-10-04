@@ -1,0 +1,148 @@
+
+<head>
+<title>BEM Example</title>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" />
+<link rel="stylesheet/less" type="text/css" href="main.less" />
+<!--<script src="less.min.js"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js"></script>
+
+<style>
+
+  body {
+  padding: 20px;
+}
+.house {
+  zoom: 1;
+  width: 95%;
+  margin: 20px 2.5%;
+  padding: 40px 0 0;
+  background: #DEDEDE;
+  border: solid 1px #999;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.house:before,
+.house:after {
+  content: "";
+  display: table;
+}
+.house:after {
+  clear: both;
+}
+.house div {
+  margin: 0 1%;
+  padding: 10px;
+  color: #FFF;
+  font-size: 10px;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+}
+.house .house__door {
+  bottom: 0;
+  height: 300px;
+  background: #900;
+  width: 10%;
+}
+.house .house__door--is-open {
+  background: #333;
+}
+.house .house__window {
+  background: #7ABAFF;
+  width: 10%;
+  height: 100px;
+  margin-top: -120px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+.house .house__window--is-open {
+  background: yellow;
+}
+.house .house__garage-door {
+  height: 300px;
+  width: 25%;
+  background: #999;
+}
+.house .house__garage-door--is-open {
+  background: #000;
+}
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #DEDEDE;
+  font-size: 12px;
+}
+
+
+</style>
+
+</head>
+
+
+<h1>BEM House Example</h1>
+<p>The Block, Element, Modifier methodology (commonly referred to as BEM) is a popular naming convention for classes in HTML and CSS. Developed by the team at Yandex, the goal is to help developers better understand the relationship between the HTML and CSS in a given project.</p>
+<h2>house (closed)</h2>
+<div class="house">
+  <div class="house__window">house__window</div>
+  <div class="house__door">house__door</div>
+  <div class="house__window">house__window</div>
+  <div class="house__window">house__window</div>
+  <div class="house__garage-door">house__garage-door</div>
+</div>
+<h2>house (open)</h2>
+<div class="house">
+  <div class="house__window house__window--is-open">house__window<br>
+    <br>
+    house__window--is-open</div>
+  <div class="house__door house__door--is-open">house__door <br>
+    <br>
+    house__door--is-open</div>
+  <div class="house__window house__window--is-open">house__window<br>
+    <br>
+    house__window--is-open</div>
+  <div class="house__window house__window--is-open">house__window<br>
+    <br>
+    house__window--is-open</div>
+  <div class="house__garage-door house__garage-door--is-open">house__garage-door<br>
+    <br>
+    house__garage-door--is-open</div>
+</div>
+<h2>Learn More</h2>
+<ul>
+  <li><a href="http://blog.decaf.de/2015/06/24/why-bem-in-a-nutshell/" target="_blank">‘Why BEM?’ in a nutshell</a></li>
+  <li><a href="https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/" target="_blank">MindBEMding</a> — getting your head ’round BEM syntax</li>
+  <li><a href="http://cssguidelin.es/#bem-like-naming" target="_blank">CSS guidelines</a></li>
+  <li><a href="http://www.smashingmagazine.com/2014/07/17/bem-methodology-for-small-projects/" target="_blank">BEM methodology for small projects</a></li>
+  <li><a href="http://www.slideshare.net/MaxShirshin/bem-it-for-brandwatch" target="_blank">BEM It! for Brandwatch</a></li>
+  <li><a href="http://www.phase2technology.com/blog/used-and-abused-css-inheritance-and-our-misuse-of-the-cascade/" target="_blank">Used and Abused</a> — CSS Inheritance and Our Misuse of the Cascade.</li>
+  <li><a href="https://medium.com/objects-in-space/objects-in-space-f6f404727" target="_blank">Objects in Space</a> — A style-guide for modular SASS development using SMACSS and BEM</li>
+  <li><a href="https://webuild.envato.com/blog/how-to-scale-and-maintain-legacy-css-with-sass-and-smacss/" target="_blank">How to Scale and Maintain Legacy CSS with Sass and SMACSS</a></li>
+  <li><a href="https://www.bluegg.co.uk/building-my-health-skills-part-3/" target="_blank">Building a modular My Health Skills with BEM and Sass</a></li>
+</ul>
+
+<footer>
+	<p>BEM Example by <a href="http://www.egnacheski.com" target="_blank">Robert Egnacheski</a></p>
+</footer>

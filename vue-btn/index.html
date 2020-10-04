@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Quick Example / vue-bem-cn</title>
+  <link rel='stylesheet' href='https://cdn.rawgit.com/c01nd01r/html-tree/master/assets/css/styles.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1><a href="https://github.com/c01nd01r/vue-bem-cn/">vue-bem-cn</a> - Simple <a href="https://en.bem.info/">BEM</a> class name generator for Vue.JS</h1>
+
+<div id="mount"></div>
+
+
+<template id="app">
+	<div class="app">
+
+		<div>Live component:</div>
+		<div class="example" ref="source">
+				
+			<ui-button 
+					type="button" 
+					class="mix-any-class" 
+					size="large" 
+					look="primary"
+					icon="emoji"
+			>
+				I am BEM button!
+			</ui-button>
+
+		</div>
+		
+
+		<html-tree :code="source">
+  </div>
+</template>
+
+<template id="ui-button">
+	<button :class="b({ size, look })" :type="type">
+    <span :class="b('text', { look })">
+      <i v-if="icon" :class="b('icon', { icon })">👍</i>
+      <slot></slot>
+    </span>
+  </button>
+</template>
+
+<template id="html-tree">
+	<div :class="b()">
+		<div :class="b('title')">HTML Tree:</div>
+		<div :class="b('content', 'gnr-tree')" v-html="showTree"></div>
+	</div>
+</template>
+<!-- partial -->
+  <script src='https://unpkg.com/vue/dist/vue.min.js'></script>
+<script src='https://unpkg.com/vue-bem-cn'></script>
+<script src='https://cdn.rawgit.com/c01nd01r/html-tree/030ea82b777e2d24c720adec3217953663ba2f89/assets/js/script.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

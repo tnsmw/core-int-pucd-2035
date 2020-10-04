@@ -1,0 +1,27 @@
+$primary-color: gray;
+$primary-color--success: #bada55;
+$primary-color--featured: tomato;
+$fixed-width: 150px;
+
+// Default button
+.btn {
+  display: inline-block;
+	margin-bottom: 15px;
+  padding: 15px;	
+  border: 0;  
+	text-align: center;
+  background-color: silver;
+  color: #fff;
+}
+
+// Fixed modifier
+.btn--fixed			{	width: $fixed-width; }
+
+// Featured modifier
+.btn--featured	{ background-color: $primary-color--featured; }
+
+// Success modifier
+.btn--success		{ background-color: $primary-color--success; }
+
+// Global opacity element
+.is-opacity { opacity: .5; }

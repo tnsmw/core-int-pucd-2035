@@ -1,0 +1,57 @@
+.ui-button {
+	display: inline-block;
+	font-weight: 400;
+	line-height: 1.25;
+	text-align: center;
+	vertical-align: middle;
+	padding: .5rem 1rem;
+	font-size: 1rem;
+	border: 1px solid transparent;
+	border-radius: .25rem;
+}
+
+.ui-button--look-primary {
+	background-color: #000;
+	border-color: #0275d8;
+}
+
+.ui-button--size-large {
+	padding: .75rem 1.5rem;
+	border-radius: .3rem;
+}
+
+.ui-button__text--look-primary {
+	color: #fff;
+}
+
+.ui-button__icon {
+	padding-right: 5px; 
+}
+
+.ui-button__icon--icon-emoji {
+	text-shadow: 1px 1px 0px #555;
+}
+
+.mix-any-class {
+	box-shadow: 0 2px 2px grey;
+}
+
+
+
+
+
+
+
+
+/* dev styles */
+.html-tree {
+	margin-top: 20px;
+}
+h1 {
+	font-size: 1.5rem;
+	border-bottom: 1px solid gray;
+}
+
+body { 
+	font: 14px/1.5 Trebuchet MS, sans-serif; 
+}
