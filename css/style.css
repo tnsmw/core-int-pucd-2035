@@ -9,17 +9,17 @@ html {
 
 body {
   padding:5rem 0;
-  color:#eaeaea;
+  color:#fefefe;
 }
 
 a {
   text-decoration: underline;
-  color: #eaeaea;
+  color: #fefefe;
 }
 
 a:hover {
   text-decoration: none;
-  color: #eaeaea;
+  color: #fefefe;
 }
 
 main {
