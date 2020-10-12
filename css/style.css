@@ -14,17 +14,17 @@ body {
 
 a {
   text-decoration: underline;
-  color: #852DD2;
+  color: #BE1518;
 }
 
 a:hover {
   text-decoration: none;
-  color: #852DD2;
+  color: #BE1518;
 }
 
 main {
   display:grid;
-  grid-template-columns: 2fr 1fr ;
+  grid-template-columns: 3fr 1fr ;
   grid-auto-rows:min-content;
   grid-gap:2rem;
   width: 60vw;
