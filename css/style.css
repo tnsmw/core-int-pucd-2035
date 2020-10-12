@@ -28,7 +28,7 @@ main {
   grid-row: 2;
   grid-gap:2rem;
   justify-content: center;
-  margin: 0 auto;
+  margin: 1 auto;
 }
 
 .intro-block {
