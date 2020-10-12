@@ -24,10 +24,10 @@ a:hover {
 
 main {
   display:grid;
-  grid-template-columns: 50% 25% ;
-  grid-auto-rows:min-content;
+  grid-template-columns: 2fr 1fr ;
+  grid-row: 2;
   grid-gap:2rem;
-  width: 75%;
+  justify-content: center;
   margin: 0 auto;
 }
 
