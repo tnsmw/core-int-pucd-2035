@@ -24,10 +24,10 @@ a:hover {
 
 main {
   display:grid;
-  grid-template-columns: 3fr 1fr ;
+  grid-template-columns: 3fr 2fr ;
   grid-auto-rows:min-content;
   grid-gap:2rem;
-  width: 60vw;
+  width: 75%;
   margin: 0 auto;
 }
 
@@ -40,7 +40,7 @@ main {
 }
 
 .projects {
-  grid-column:2 / 4;
+  grid-column:3 / 5;
 }
 
 .item {
