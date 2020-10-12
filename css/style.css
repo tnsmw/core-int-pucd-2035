@@ -28,7 +28,7 @@ main {
   grid-row: 2;
   grid-gap:2rem;
   justify-content: center;
-  margin: 1 auto;
+  margin: 50 auto;
 }
 
 .intro-block {
@@ -58,7 +58,7 @@ main {
 
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Jura', sans-serif;
   margin-bottom:1rem;
 }
 
