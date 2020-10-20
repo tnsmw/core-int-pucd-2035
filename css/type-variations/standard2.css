@@ -24,11 +24,11 @@ a:hover {
 
 main {
   display:grid;
-  grid-template-columns: 0.5fr 1fr 1fr;
+  grid-template-columns: 0.5fr 2fr;
   grid-template-rows: auto;
-  grid-gap:1rem;
-  margin: 40 auto;
-  width: 100vw;
+  grid-gap:4rem;
+  margin: 0 auto;
+  width: 70vw;
 }
 
 .intro-block {
@@ -75,7 +75,8 @@ h3 {
 
 }
 h4 {
-  font-size:1rem;
+  font-size:2.75rem;
+  font-weight:100;
 }
 
 
@@ -87,7 +88,7 @@ li {
 }
 
 p {
-  font-size: 1.125rem;
+  font-size: 1.35rem;
   line-height: 1.5;
   font-family: 'Lora', serif;
 }
