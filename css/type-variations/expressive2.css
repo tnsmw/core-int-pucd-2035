@@ -28,7 +28,7 @@ main {
   grid-template-rows: auto;
   grid-gap:1rem;
   margin: 0 auto;
-  width: 150vw;
+  width: 100vw;
 }
 
 .intro-block {
@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-  font-size:3.375rem;
+  font-size:5rem;
   font-weight:800;
 }
 h2 {
