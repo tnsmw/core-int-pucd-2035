@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  padding:5rem 0;
+  padding:1rem 0;
   color: #fdfdfd;
 }
 
@@ -24,11 +24,11 @@ a:hover {
 
 main {
   display:grid;
-  grid-template-columns: 2fr ;
+  grid-template-columns: 0.5fr 1fr 1fr;
   grid-template-rows: auto;
-  grid-gap:2rem;
+  grid-gap:1rem;
   margin: 0 auto;
-  width: 70vw;
+  width: 100vw;
 }
 
 .intro-block {
@@ -59,7 +59,7 @@ main {
 
 h1, h2, h3, h4, h5 {
   font-family: 'Petrona', serif;
-  margin-bottom:1rem;
+  margin-bottom:2rem;
 }
 
 h1 {
