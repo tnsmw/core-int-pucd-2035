@@ -24,19 +24,20 @@ a:hover {
 
 main {
   display:grid;
-  grid-template-columns: 2fr ;
+  grid-template-columns: 0.5fr 1fr 1fr;
   grid-template-rows: auto;
-  grid-gap:2rem;
+  grid-gap:1rem;
   margin: 0 auto;
-  width: 70vw;
+  width: 150vw;
 }
 
 .intro-block {
   grid-column:1 / 2;
 }
 
-.statement {
-  grid-column:1 / 2;
+.article {
+  grid-column:3 / 5;
+  grid-row:2 / 6;
 }
 
 .projects {
@@ -54,8 +55,6 @@ main {
   border-top: 1px solid #ccc;
   padding: 1rem 0;
 }
-
-
 
 h1, h2, h3, h4, h5 {
   font-family: 'Petrona', serif;
@@ -90,13 +89,6 @@ p {
   font-size: 1.125rem;
   line-height: 1.5;
   font-family: 'Lora', serif;
-}
-
-.location {
-  font-size: 1rem;
-  font-family: 'Petrona', serif;
-  text-transform: uppercase;
-  line-height: 1.5;
 }
 
 img {

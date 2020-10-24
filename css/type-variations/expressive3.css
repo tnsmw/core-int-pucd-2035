@@ -3,7 +3,7 @@
 
 html {
   font-size: 1rem;
-  font-family: 'Petrona', serif;
+  font-family: 'Inconsolata', monospace;
   background-color: #1C1C1C;
 }
 
@@ -24,20 +24,21 @@ a:hover {
 
 main {
   display:grid;
-  grid-template-columns: 0.5fr 1fr 1fr;
-  grid-template-rows: auto;
+  grid-template-columns: repeat(5, 2fr);
+  grid-template-rows: repeat(10, min-content);
   grid-gap:1rem;
   margin: 0 auto;
-  width: 150vw;
+  width: 90vw;
 }
 
 .intro-block {
   grid-column:1 / 2;
+  grid-row:1 / 4;
 }
 
 .article {
-  grid-column:3 / 10;
-  grid-row:5 / 7;
+  grid-column:1 / 5;
+  grid-row:3 / 7;
 }
 
 .projects {
@@ -56,10 +57,19 @@ main {
   padding: 1rem 0;
 }
 
-
+.vert-quote {
+  grid-column:2 / 3;
+  grid-row:7 / 10;
+  font-size: 2rem;
+  font-family: 'Inconsolata', monospace;
+  line-height: 1.5;
+  font-weight:400;
+  writing-mode: vertical-lr;
+  padding:2rem;
+}
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Petrona', serif;
+  font-family: 'Inconsolata', monospace;
   margin-bottom:2rem;
 }
 
@@ -82,7 +92,7 @@ h4 {
 
 li {
   font-size: 1.25rem;
-  font-family: 'Lora', serif;
+  font-family: 'Inconsolata', monospace;
   line-height: 1.5;
   padding: .5rem 0;
 }
@@ -90,14 +100,7 @@ li {
 p {
   font-size: 1.125rem;
   line-height: 1.5;
-  font-family: 'Lora', serif;
-}
-
-.location {
-  font-size: 1rem;
-  font-family: 'Petrona', serif;
-  text-transform: uppercase;
-  line-height: 1.5;
+  font-family: 'Inconsolata', monospace;
 }
 
 img {
@@ -107,6 +110,6 @@ img {
 
 figcaption {
   font-size: .875rem;
-  font-family: 'Petrona', serif;
+  font-family: 'Inconsolata', monospace;
   padding-top: 1rem;
 }

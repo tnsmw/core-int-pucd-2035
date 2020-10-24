@@ -3,7 +3,7 @@
 
 html {
   font-size: 1rem;
-  font-family: 'Petrona', serif;
+  font-family: 'Lora', serif;
   background-color: #1C1C1C;
 }
 
@@ -24,20 +24,16 @@ a:hover {
 
 main {
   display:grid;
-  grid-template-columns: 0.5fr 1fr 1fr;
-  grid-template-rows: auto;
+  grid-template-columns: repeat(5, 2fr);
+  grid-template-rows: repeat(4, min-content);
   grid-gap:1rem;
   margin: 0 auto;
-  width: 150vw;
+  width: 90vw;
 }
 
 .intro-block {
-  grid-column:1 / 2;
-}
-
-.article {
-  grid-column:3 / 11;
-  grid-row:6 / 7;
+  grid-column:1 / 5;
+  grid-row:1 / 4;
 }
 
 .projects {
@@ -56,22 +52,30 @@ main {
   padding: 1rem 0;
 }
 
-
+.vert-quote {
+  grid-column:1 / 5;
+  grid-row:3 / 4;
+  font-size: 2rem;
+  font-family: 'Lora', serif;
+  line-height: .5;
+  writing-mode: vertical-lr;
+}
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Petrona', serif;
+  font-family: 'Inconsolata', monospace;
   margin-bottom:2rem;
+  writing-mode: horizontal-tb;
 }
 
 h1 {
-  font-size:3.375rem;
+  font-size:2rem;
   font-weight:800;
 }
 h2 {
-  font-size:2.25rem;
+  font-size:1rem;
 }
 h3 {
-  font-size:1.5rem;
+  font-size:1rem;
   font-weight:300;
 
 }
@@ -88,16 +92,9 @@ li {
 }
 
 p {
-  font-size: 1.125rem;
-  line-height: 1.5;
+  font-size: 2rem;
+  line-height: .25;
   font-family: 'Lora', serif;
-}
-
-.location {
-  font-size: 1rem;
-  font-family: 'Petrona', serif;
-  text-transform: uppercase;
-  line-height: 1.5;
 }
 
 img {
