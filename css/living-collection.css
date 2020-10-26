@@ -5,23 +5,23 @@
 
 html {
   font-size: 1rem;
-  font-family: 'Lora', serif;
-  background-color: #fff;
+  font-family: 'Inconsolata', monospace;
+  background-color: #1C1C1C;
 }
 
 body {
   padding:5rem 0;
-  color:#000;
+  color:#fdfdfd;
 }
 
 a {
   text-decoration: underline;
-  color: #ae7f3d;
+  color: #fdfdfd;
 }
 
 a:hover {
   text-decoration: none;
-  color: #ae7f3d;
+  color: #fdfdfd;
 }
 
 
@@ -44,18 +44,15 @@ img {
 }
 
 
-    .grid-item {
+.grid-item {
   font-size: 1em;
   text-align: center;
   padding-top:1rem;
-
 }
 
 
-
-
 h1, h2, h3, h4, h5 {
-  font-family: 'Lora', serif;
+  font-family: 'Inconsolata', monospace;
   margin-bottom:.5rem;
 }
 
@@ -79,13 +76,13 @@ h4 {
 
 li {
   font-size: 1.25rem;
-  font-family: 'Lora', serif;
+  font-family: 'Inconsolata', monospace;
   line-height: 1.5;
   padding: .5rem 0;
 }
 
 .game-name {
-  font-family: 'Lora', sans-serif;
+  font-family: 'Inconsolata', monospace;
   line-height: 1;
   font-weight:700;
   margin-top:.5rem;
@@ -97,7 +94,7 @@ li {
 
 
 p {
-  font-family: 'Lora', sans-serif;
+  font-family: 'Inconsolata', monospace;
   font-size: 1.125rem;
   line-height: 1.5;
   margin-bottom:1rem;
