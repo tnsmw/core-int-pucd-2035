@@ -1,7 +1,74 @@
-html, body {
-  margin: 0;
-  padding: 0;
+/*! minireset.css v0.0.6 | MIT License */ html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select,textarea{margin:0}html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}td:not([align]),th:not([align]){text-align:left}
+
+
+
+
+html {
+  font-size: 1rem;
+  font-family: 'Inconsolata', monospace;
+  background-color: #1C1C1C;
 }
-canvas {
-  display: block;
+
+body {
+  padding:5rem 0;
+  color:#fdfdfd;
 }
+
+a {
+  text-decoration: underline;
+  color: #fdfdfd;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fdfdfd;
+}
+
+
+
+    main {
+        max-width:90em;
+        margin:0 auto;
+    }
+
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Inconsolata', monospace;
+  margin-bottom:.5rem;
+}
+
+h1 {
+  font-size:1.75rem;
+  font-weight:700;
+}
+
+h2 {
+  font-size:1.15rem;
+}
+h3 {
+  font-size:1.2rem;
+  font-weight:400;
+
+}
+h4 {
+  font-size:1.25rem;
+}
+
+
+li {
+  font-size: 1.25rem;
+  font-family: 'Inconsolata', monospace;
+  line-height: 1.5;
+  padding: .5rem 0;
+}
+
+
+p {
+  font-family: 'Inconsolata', monospace;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  margin-bottom:1rem;
+}
+
+
+
