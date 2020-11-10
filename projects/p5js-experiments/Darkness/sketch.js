@@ -8,7 +8,7 @@
 let t = 0; // time variable
 
 function setup() {
-  createCanvas(1280, 1024);
+  createCanvas(1920, 1080);
   noStroke();
   fill(0, 40, 50, 60);
 }
