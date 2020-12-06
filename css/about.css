@@ -12,19 +12,9 @@ body {
   color:#fefefe;
 }
 
-a {
-  text-decoration: underline;
-  color: #fefefe;
-}
-
-a:hover {
-  text-decoration: none;
-  color: #fefefe;
-}
-
 main {
   display:grid;
-  grid-template-columns: 2fr 1fr ;
+  grid-template-columns: auto;
   grid-template-rows: auto;
   grid-gap:2rem;
   margin: 0 auto;
@@ -37,14 +27,6 @@ main {
 
 .statement {
   grid-column:1 / 2;
-}
-
-.projects {
-  grid-column:1 / 2;
-}
-
-.about {
-  grid-column:2 / 3;
 }
 
 .item {
@@ -61,44 +43,31 @@ main {
 
 h1, h2, h3, h4, h5 {
   font-family: 'Jura', sans-serif;
-  margin-bottom:1rem;
+  margin-bottom: 1rem;
+  line-height: 1;
 }
 
 h1 {
-  font-size:3.375rem;
+  font-size:1.75rem;
   font-weight:800;
 }
 h2 {
-  font-size:2.25rem;
+  font-size:1.25rem;
+  font-weight:100;
 }
 h3 {
-  font-size:1.5rem;
-  font-weight:300;
+  font-size:1.25rem;
+  font-weight:100;
 
 }
 h4 {
   font-size:1rem;
 }
 
-
-li {
-  font-size: 1.25rem;
-  font-family: 'Quicksand', sans-serif;
-  line-height: 1.5;
-  padding: .5rem 0;
-}
-
 p {
-  font-size: 1.125rem;
-  line-height: 1.5;
-  font-family: 'Quicksand', sans-serif;
-}
-
-.location {
   font-size: 1rem;
-  font-family: 'Jura', sans-serif;
-  text-transform: uppercase;
-  line-height: 1.5;
+  line-height: 1.75;
+  font-family: 'Petrona', serif;
 }
 
 img {
