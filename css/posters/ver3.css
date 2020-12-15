@@ -52,7 +52,7 @@ article {
 
 
 .gsr-1 {
-  grid-column:1;
+  grid-column:3;
   grid-row: 1 / 4;
 }
 .gsr-2 {
@@ -84,20 +84,24 @@ h1, h2, h3, h4, h5 {
 h1 {
   font-size:16rem;
   font-weight:700;
+  color: #001C7E;
+
 }
 
 h2 {
-  font-size:8rem;
+  font-size:9rem;
   text-transform:uppercase;
   font-weight:700;
 
 }
+
 h3 {
   font-size:4rem;
   font-weight:400;
   font-weight:700;
 
 }
+
 h4 {
   font-size:2rem;
   font-weight:700;
